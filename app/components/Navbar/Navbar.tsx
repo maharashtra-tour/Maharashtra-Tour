@@ -53,7 +53,7 @@ const Navbar = () => {
                 <div className=" flex text-white bg-Blueviolet justify-center py-2  items-center font-normal ">
                     <p className=" flex items-center font-semibold text-lg ">
                         Contact Details:
-                        <a href="tel:9004244484" className='mx-2 underline' >9004244484</a></p>
+                        <a href="tel:+919565721078" className='mx-2 underline' >+91 9565721078</a></p>
                 </div>
                 <div className="mx-auto max-w-7xl px-6 py-4 lg:px-8">
                     <div className="relative flex h-10 md:h-20 items-center justify-between">
