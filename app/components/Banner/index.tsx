@@ -13,8 +13,8 @@ const Banner = () => {
                             <Image src="/assets/banner/check.svg" alt="check-image" width={20} height={20} />
                             <h3 className='text-kellygreen text-sm font-semibold text-center lg:text-start'>Navigate Mumbai in Comfort and Style!</h3>
                         </div>
-                        <h1 className='text-midnightblue text-4xl sm:text-5xl font-semibold text-center lg:text-start lh-120 pt-5 lg:pt-0'>Discover Mumbai's Top Choice for Cab Service. Trusted for Reliable Journeys.</h1>
-                        <h3 className='text-charcoal text-lg font-normal text-center lg:text-start opacity-75 pt-5 lg:pt-0'>Uncover Mumbai's Ultimate Destination for Cab Service. Trusted for Unmatched, Reliable Journeys.</h3>
+                        <h1 className='text-midnightblue text-4xl sm:text-5xl font-semibold text-center lg:text-start lh-120 pt-5 lg:pt-0'>Discover Mumbai&apos;s Top Choice for Cab Service. Trusted for Reliable Journeys.</h1>
+                        <h3 className='text-charcoal text-lg font-normal text-center lg:text-start opacity-75 pt-5 lg:pt-0'>Uncover Mumbai&apos;s Ultimate Destination for Cab Service. Trusted for Unmatched, Reliable Journeys.</h3>
 
                         <div className="relative  text-white focus-within:text-white flex flex-row-reverse  input-shadow rounded-full pt-5 lg:pt-0">
                             <input type="Email address" name="q" className="py-6 lg:py-6 text-lg w-full text-black opacity-75 rounded-full pl-6 focus:outline-none focus:text-black" placeholder="Your mobile number..." autoComplete="off" />
