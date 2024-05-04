@@ -63,7 +63,7 @@ const Navbar = () => {
 
                             <div className="flex flex-shrink-0 cursor-pointer px-4 py-1 rounded-xl items-center">
 
-                                <p className='md:text-2xl text-3xl font-semibold text-center leading-6' >Garv Travels</p>
+                                <p className='md:text-4xl text-3xl font-semibold text-center leading-6' >Garv Travels</p>
                             </div>
 
                             {/* LINKS */}
@@ -93,7 +93,7 @@ const Navbar = () => {
 
                         {/* REGISTER DIALOG */}
 
-                        {/* <Registerdialog /> */}
+                        <Registerdialog />
 
                         {/* DRAWER FOR MOBILE VIEW */}
 
