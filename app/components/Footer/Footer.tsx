@@ -64,7 +64,7 @@ const footer = () => {
                         <p className='md:text-4xl text-2xl font-bold text-center' >Garv Travels.</p>
 
                     </div>
-                    <h3 className='text-xs font-medium text-gunmetalgray lh-160 mt-5 mb-4 lg:mb-16'> Uncover Mumbai's Ultimate Destination for Cab Service. <br /> Trusted for Unmatched, Reliable Journeys.</h3>
+                    <h3 className='text-xs font-medium text-gunmetalgray lh-160 mt-5 mb-4 lg:mb-16'> Uncover Mumbai&apos;s Ultimate Destination for Cab Service. <br /> Trusted for Unmatched, Reliable Journeys.</h3>
                     <div className='flex gap-4'>
 
                         {socialLinks.map((items, i) => (
