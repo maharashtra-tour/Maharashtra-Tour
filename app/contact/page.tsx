@@ -8,7 +8,7 @@ const ContactUs = () => {
                     <div className="grid lg:grid-cols-2 grid-cols-1 gap-x-16 xl:gap-x-24 gap-y-14 max-w-lg md:max-w-3xl lg:max-w-full mx-auto">
                         <div>
                             <h1 className="font-manrope text-[#111827]  text-2xl font-bold leading-tight mb-8 lg:text-left text-center">Contact Us</h1>
-                            <p className="text-[#111827] text-lg font-normal leading-7 lg:text-left text-center">We're here to assist you! Whether you have questions, feedback, or inquiries, our team is ready to help.</p>
+                            <p className="text-[#111827] text-lg font-normal leading-7 lg:text-left text-center">We&apos;re here to assist you! Whether you have questions, feedback, or inquiries, our team is ready to help.</p>
                             <div className="my-12 grid md:grid-cols-2 grid-cols-1 md:gap-x-8 gap-y-8">
                                 <div className="rounded-2xl border border-[#e5e7eb] bg-white p-7 group transition-all duration-500 ">
                                     <a href="javascript:;" className="w-14 h-14 bg-Blueviolet rounded-full flex items-center justify-center mb-5 transition-all duration-500 cursor-pointer">
