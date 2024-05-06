@@ -71,7 +71,7 @@ export default class MultipleItems extends Component {
                 {
                     breakpoint: 500,
                     settings: {
-                        slidesToShow: 1,
+                        slidesToShow: 2,
                         slidesToScroll: 1,
                         infinite: true,
                         dots: false
@@ -82,14 +82,14 @@ export default class MultipleItems extends Component {
 
         return (
 
-            <div className='text-center my-20'>
+            <div className='text-center my-16'>
                 <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:max-w-7xl lg:px-8">
                     <h2 className="text-midnightblue text-2xl font-semibold">Trusted by companies of all sizes</h2>
                     <div className="py-14">
                         <Slider {...settings}>
                             {data.map((item, i) =>
                                 <div key={i}>
-                                    <Image src={item.imgSrc} alt={item.imgSrc} width={116} height={36} />
+                                    <Image src={item.imgSrc} alt={item.imgSrc} width={100} height={36} className="object-cover" />
                                 </div>
                             )}
                         </Slider>
