@@ -36,8 +36,7 @@ const BottomNav = () => {
         initialValues: initialValues,
         validationSchema: EnquirySchema,
         onSubmit: (values) => {
-            console.log(values);
-            // sendEmail(values);
+            // console.log(values);
         },
     });
 
