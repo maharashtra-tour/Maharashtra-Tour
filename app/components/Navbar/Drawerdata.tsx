@@ -40,10 +40,6 @@ const Data = () => {
               </Link>
             ))}
             <div className="mt-4"></div>
-
-            {/* <button className="bg-semiblueviolet w-full hover:bg-Blueviolet hover:text-white text-Blueviolet font-medium my-2 py-2 px-4 rounded">
-              Inquire Now
-            </button> */}
             <Register />
           </div>
         </div>
