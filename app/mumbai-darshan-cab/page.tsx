@@ -1,15 +1,40 @@
-"use client";
-
 import mumbai01 from "@/public/assets/mumbai-darshan/mumbai01.jpg";
 import mumbai02 from "@/public/assets/mumbai-darshan/mumbai02.jpg";
 import mumbai03 from "@/public/assets/mumbai-darshan/mumbai03.jpg";
 import Image from "next/image";
-import CustomInput from "../components/CustomInput";
-
 import FaqItem from "../components/Reusable/FaqItem";
 import OurCabServices from "../components/Reusable/OurCabServices";
 import CarsAvailable from "../components/Reusable/CarsAvailable";
 import BookNowForm from "../components/Reusable/BookNowForm";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Mumbai Darshan Cab | Garv Travels",
+  description:
+    "Explore Mumbai's iconic landmarks with our Mumbai Darshan Cab services. Book now for a memorable city tour.",
+  keywords: [
+    "Mumbai Darshan",
+    "Cab Service",
+    "City Tour",
+    "Mumbai landmarks",
+    "Garv Travels",
+  ],
+  openGraph: {
+    type: "website",
+    url: "https://garvtravels.in/mumbai-darshan-cab",
+    title: "Mumbai Darshan Cab | Garv Travels",
+    description:
+      "Explore Mumbai's iconic landmarks with our Mumbai Darshan Cab services. Book now for a memorable city tour.",
+    images: [
+      {
+        url: "https://garvtravels.in/public/assets/mumbai-darshan/mumbai03.jpg",
+        width: 800,
+        height: 600,
+        alt: "Mumbai Darshan Cover Image",
+      },
+    ],
+  },
+};
 
 const faq = [
   {
@@ -101,8 +126,10 @@ const MumbaiDarshan = () => {
           </div>
           {/* Section Container */}
           {sections.map((section, index) => (
-            <div key={index} className="pb-6" >
-              <p className="text-3xl mb-6 font-semibold">{section.title}</p>
+            <div key={index} className="pb-6">
+              <p className="text-3xl mb-6 text-center font-semibold">
+                {section.title}
+              </p>
               {section.content.map((paragraph, idx) => (
                 <p key={idx} className="text-textSecondary mb-4 text-justify">
                   {paragraph}
