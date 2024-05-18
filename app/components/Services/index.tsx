@@ -79,8 +79,8 @@ export default class MultipleItems extends Component {
       // centerMode: true,
       slidesToScroll: 1,
       arrows: false,
-      autoplay: true,
-      speed: 5000,
+      autoplay: false,
+      speed: 2000,
       cssEase: "linear",
       pauseOnHover: true,
       responsive: [
@@ -153,7 +153,7 @@ export default class MultipleItems extends Component {
                       </h3>
                     </div>
 
-                    <div className="flex justify-between gap-8 mt-2 items-center">
+                    <div className="flex justify-between gap-4 mt-2 items-center">
                       {/* <div className="flex gap-4">
                         <h3 className="text-red text-22xl font-medium">
                           {items.rating}
@@ -166,11 +166,11 @@ export default class MultipleItems extends Component {
                           <StarIcon className="h-5 w-5 text-gold" />
                         </div>
                       </div> */}
-                    <Link href={items.href || ""} className="w-full">
+                      <Link href={items.href || ""} className="w-full">
                         <button className="p-3 lg:p-4 w-full focus:outline-none focus:shadow-outline text-black border border-Blueviolet bg-white hover:bg-cornflowerblue hover:text-white hover:border-none duration-150 ease-in-out rounded-xl">
-                            View Details
+                          View Details
                         </button>
-                    </Link>
+                      </Link>
                       <Link
                         href={`https://wa.me/9565721078?text=${items.msg}`}
                         className="w-full"
