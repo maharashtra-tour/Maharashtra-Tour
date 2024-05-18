@@ -33,6 +33,7 @@ const postData: DataType[] = [
     imgSrc: "/assets/courses/shirdi.jpg",
     rating: 4.8,
     msg: "Hello,I,m looking for cab service from Mumbai to Shirdi. Can you please provide me with the details?",
+    href: "/mumbai-to-shirdi-cab",
   },
   {
     heading: "Mumbai to Lonavala",
@@ -41,6 +42,7 @@ const postData: DataType[] = [
     imgSrc: "/assets/courses/lonavala.jpg",
     rating: 4.9,
     msg: "Hello,I,m looking for cab service from Mumbai to Lonavala. Can you please provide me with the details?",
+    href: "/mumbai-to-lonavala-cab",
   },
   {
     heading: "Mumbai to Pune",
@@ -49,6 +51,7 @@ const postData: DataType[] = [
     imgSrc: "/assets/courses/puneImg.jpg",
     rating: 4.9,
     msg: "Hello,I,m looking for cab service from Mumbai to Pune. Can you please provide me with the details?",
+    href: "/mumbai-to-pune-cab",
   },
 
   {
