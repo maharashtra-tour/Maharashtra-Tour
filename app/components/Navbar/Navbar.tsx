@@ -58,8 +58,8 @@ const Navbar = () => {
         <div className=" flex text-white bg-Blueviolet justify-center py-2  items-center font-normal ">
           <p className=" flex items-center font-semibold text-lg ">
             Contact Details:
-            <a href="tel:+919565721078" className="mx-2 underline">
-              +91 9565721078
+            <a href="tel:+918286112257" className="mx-2 underline">
+              +91 8286112257
             </a>
           </p>
         </div>

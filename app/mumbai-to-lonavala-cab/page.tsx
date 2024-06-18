@@ -36,39 +36,39 @@ export const metadata: Metadata = {
   },
 };
 
-const faq = [
-  {
-    question: "What is the Mumbai to Lonavala Cab Service?",
-    answer:
-      "The Mumbai to Lonavala Cab Service provides a convenient and comfortable way to travel between these two popular destinations. Our cabs are equipped with all the amenities to ensure a pleasant journey.",
-  },
-  {
-    question: "How can I book a cab from Mumbai to Lonavala?",
-    answer:
-      "Booking a cab from Mumbai to Lonavala is easy. You can make a reservation through our user-friendly website, contact our customer service team, or fill out an enquiry form for prompt assistance.",
-  },
-  {
-    question:
-      "What types of cars are available for the Mumbai to Lonavala route?",
-    answer:
-      "We offer a variety of cars to suit your needs, including compact cars, sedans, SUVs, and luxury vehicles. Choose the car that best fits your preferences for the journey.",
-  },
-  {
-    question: "Can I book a one-way cab from Mumbai to Lonavala?",
-    answer:
-      "Yes, we provide both one-way and round-trip cab services from Mumbai to Lonavala. Select the option that best suits your travel plans.",
-  },
-  {
-    question: "Are the drivers experienced for the Mumbai to Lonavala route?",
-    answer:
-      "Our drivers are highly experienced and familiar with the Mumbai to Lonavala route. They ensure a safe and comfortable journey, offering insights and assistance as needed.",
-  },
-  {
-    question: "How long does the journey from Mumbai to Lonavala take?",
-    answer:
-      "The trip from Mumbai to Lonavala typically takes around 2 to 3 hours, depending on traffic and road conditions. Our drivers strive to provide a timely and enjoyable travel experience.",
-  },
-];
+  const faq = [
+    {
+      question: "What is the Mumbai to Lonavala Cab Service?",
+      answer:
+        "The Mumbai to Lonavala Cab Service provides a convenient and comfortable way to travel between these two popular destinations. Our cabs are equipped with all the amenities to ensure a pleasant journey.",
+    },
+    {
+      question: "How can I book a cab from Mumbai to Lonavala?",
+      answer:
+        "Booking a cab from Mumbai to Lonavala is easy. You can make a reservation through our user-friendly website, contact our customer service team, or fill out an enquiry form for prompt assistance.",
+    },
+    {
+      question:
+        "What types of cars are available for the Mumbai to Lonavala route?",
+      answer:
+        "We offer a variety of cars to suit your needs, including compact cars, sedans, SUVs, and luxury vehicles. Choose the car that best fits your preferences for the journey.",
+    },
+    {
+      question: "Can I book a one-way cab from Mumbai to Lonavala?",
+      answer:
+        "Yes, we provide both one-way and round-trip cab services from Mumbai to Lonavala. Select the option that best suits your travel plans.",
+    },
+    {
+      question: "Are the drivers experienced for the Mumbai to Lonavala route?",
+      answer:
+        "Our drivers are highly experienced and familiar with the Mumbai to Lonavala route. They ensure a safe and comfortable journey, offering insights and assistance as needed.",
+    },
+    {
+      question: "How long does the journey from Mumbai to Lonavala take?",
+      answer:
+        "The trip from Mumbai to Lonavala typically takes around 2 to 3 hours, depending on traffic and road conditions. Our drivers strive to provide a timely and enjoyable travel experience.",
+    },
+  ];
 
 const sections = [
   {

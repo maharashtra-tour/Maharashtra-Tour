@@ -175,7 +175,7 @@ export default class MultipleItems extends Component {
                         </button>
                       </Link>
                       <Link
-                        href={`https://wa.me/9565721078?text=${items.msg}`}
+                        href={`https://wa.me/8286112257?text=${items.msg}`}
                         className="w-full"
                       >
                         <button className="p-3 lg:p-4 w-full focus:outline-none focus:shadow-outline text-white bg-ultramarine hover:bg-midnightblue duration-150 ease-in-out rounded-xl">
