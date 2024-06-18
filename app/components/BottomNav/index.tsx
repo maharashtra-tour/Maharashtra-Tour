@@ -67,7 +67,7 @@ const BottomNav = () => {
     setIsOpen(true);
   };
   return (
-    <div className="grid sm:hidden w-[97%] z-50 rounded-xl grid-cols-3 fixed bottom-0 left-0 right-0  text-white font-medium text-center mx-auto mb-1 text-sm p-0 h-14 bg-Blueviolet">
+    <div className="grid sm:hidden w-[93%] z-50 rounded-xl grid-cols-3 fixed bottom-0 left-0 right-0  text-white font-medium text-center mx-auto mb-3 text-sm p-0 h-14 bg-Blueviolet">
       <div className="flex flex-col justify-center gap-1 border-r items-center">
         <IoMdCall className="h-5 w-5" />
         <a href="tel:+918286112257">Call us</a>
