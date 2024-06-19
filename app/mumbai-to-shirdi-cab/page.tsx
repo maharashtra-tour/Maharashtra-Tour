@@ -1,6 +1,6 @@
 import shirdi01 from "@/public/assets/mumbai-shirdi/shirdi.jpg";
-import shirdi02 from "@/public/assets/mumbai-shirdi/shirdi02.jpg"
-import shirdi03 from "@/public/assets/mumbai-shirdi/shirdi03.webp"
+import shirdi02 from "@/public/assets/mumbai-shirdi/shirdi02.jpg";
+import shirdi03 from "@/public/assets/mumbai-shirdi/shirdi03.webp";
 import Image from "next/image";
 import FaqItem from "../components/Reusable/FaqItem";
 import OurCabServices from "../components/Reusable/OurCabServices";
@@ -9,7 +9,7 @@ import BookNowForm from "../components/Reusable/BookNowForm";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Mumbai to Shirdi Cab Service | Garv Travels",
+  title: "Mumbai to Shirdi Cab Service | Maharashtra Tours",
   description:
     "Experience a comfortable and hassle-free journey from Mumbai to Shirdi with our cab services. Book now for a smooth and memorable trip.",
   keywords: [
@@ -17,12 +17,12 @@ export const metadata: Metadata = {
     "Cab Service",
     "Shirdi Trip",
     "Travel to Shirdi",
-    "Garv Travels",
+    "Maharashtra Tours",
   ],
   openGraph: {
     type: "website",
     url: "https://garvtravels.in/mumbai-to-shirdi-cab",
-    title: "Mumbai to Shirdi Cab Service | Garv Travels",
+    title: "Mumbai to Shirdi Cab Service | Maharashtra Tours",
     description:
       "Experience a comfortable and hassle-free journey from Mumbai to Shirdi with our cab services. Book now for a smooth and memorable trip.",
     images: [
@@ -74,28 +74,29 @@ const sections = [
   {
     title: "Experience a Smooth Journey with Mumbai to Shirdi Cab Services",
     content: [
-      "Traveling from Mumbai to Shirdi has never been easier with Garv Travels' cab services. Enjoy a comfortable ride with our well-maintained vehicles, ensuring a pleasant journey to Shirdi.",
+      "Traveling from Mumbai to Shirdi has never been easier with Maharashtra Tours' cab services. Enjoy a comfortable ride with our well-maintained vehicles, ensuring a pleasant journey to Shirdi.",
       "Our cab service offers flexibility and convenience, allowing you to choose the best time for your trip. Whether you're traveling alone, with family, or in a group, we have the perfect vehicle to suit your needs.",
       "Our drivers are experienced and knowledgeable, ensuring a safe journey and providing valuable insights about the route and local attractions. You can relax and enjoy the scenic drive while we take care of the rest.",
-      "Book your Mumbai to Shirdi cab with Garv Travels today and experience the comfort and reliability of our services. We guarantee a hassle-free and enjoyable trip to Shirdi.",
+      "Book your Mumbai to Shirdi cab with Maharashtra Tours today and experience the comfort and reliability of our services. We guarantee a hassle-free and enjoyable trip to Shirdi.",
     ],
   },
   {
     title: "Why Choose Our Mumbai to Shirdi Cab Service?",
     content: [
-      "Choosing Garv Travels for your Mumbai to Shirdi journey ensures a superior travel experience. Our cabs are equipped with modern amenities to provide maximum comfort during your trip.",
+      "Choosing Maharashtra Tours for your Mumbai to Shirdi journey ensures a superior travel experience. Our cabs are equipped with modern amenities to provide maximum comfort during your trip.",
       "We offer competitive pricing and transparent billing, so you can travel with peace of mind knowing there are no hidden charges. Our goal is to make your journey as seamless and enjoyable as possible.",
       "Safety is our top priority. Our drivers are trained professionals who adhere to all safety protocols, ensuring a secure travel experience. We also offer 24/7 customer support to assist you with any queries or concerns.",
-      "Experience the difference with Garv Travels. Book your cab today and embark on a memorable journey from Mumbai to Shirdi with our reliable and efficient cab services.",
+      "Experience the difference with Maharashtra Tours. Book your cab today and embark on a memorable journey from Mumbai to Shirdi with our reliable and efficient cab services.",
     ],
   },
   {
-    title: "Explore Shirdi with Garv Travels' Mumbai to Shirdi Cab Services",
+    title:
+      "Explore Shirdi with Maharashtra Tours' Mumbai to Shirdi Cab Services",
     content: [
-      "Shirdi, the home of the revered Sai Baba, is a popular pilgrimage destination. With Garv Travels' Mumbai to Shirdi cab service, you can explore this spiritual town with ease and comfort.",
+      "Shirdi, the home of the revered Sai Baba, is a popular pilgrimage destination. With Maharashtra Tours' Mumbai to Shirdi cab service, you can explore this spiritual town with ease and comfort.",
       "Our service is designed to provide a stress-free travel experience. Enjoy the scenic route from Mumbai to Shirdi while we take care of all your travel needs. Our cabs are spacious and comfortable, ensuring a relaxing journey.",
       "Upon arrival in Shirdi, you can visit the famous Sai Baba Temple, explore the local markets, and experience the tranquil ambiance of this holy town. Our drivers can provide recommendations and assistance to enhance your visit.",
-      "Don't miss out on the opportunity to visit Shirdi. Book your cab with Garv Travels and enjoy a smooth and comfortable journey from Mumbai to Shirdi. We are committed to providing exceptional service and making your trip memorable.",
+      "Don't miss out on the opportunity to visit Shirdi. Book your cab with Maharashtra Tours and enjoy a smooth and comfortable journey from Mumbai to Shirdi. We are committed to providing exceptional service and making your trip memorable.",
     ],
   },
 ];

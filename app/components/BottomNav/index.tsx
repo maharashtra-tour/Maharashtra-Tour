@@ -113,7 +113,7 @@ const BottomNav = () => {
                     <div className="w-full max-w-md space-y-2">
                       <div className="flex justify-between items-center">
                         <p className="text-2xl font-bold text-center">
-                          Garv Travels
+                          Maharashtra Tours
                         </p>
                         <div className="flex justify-end">
                           <button type="button" onClick={closeModal}>

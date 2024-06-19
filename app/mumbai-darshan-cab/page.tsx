@@ -9,7 +9,7 @@ import BookNowForm from "../components/Reusable/BookNowForm";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Mumbai Darshan Cab | Garv Travels",
+  title: "Mumbai Darshan Cab | Maharashtra Tours",
   description:
     "Explore Mumbai's iconic landmarks with our Mumbai Darshan Cab services. Book now for a memorable city tour.",
   keywords: [
@@ -17,12 +17,12 @@ export const metadata: Metadata = {
     "Cab Service",
     "City Tour",
     "Mumbai landmarks",
-    "Garv Travels",
+    "Maharashtra Tours",
   ],
   openGraph: {
     type: "website",
     url: "https://garvtravels.in/mumbai-darshan-cab",
-    title: "Mumbai Darshan Cab | Garv Travels",
+    title: "Mumbai Darshan Cab | Maharashtra Tours",
     description:
       "Explore Mumbai's iconic landmarks with our Mumbai Darshan Cab services. Book now for a memorable city tour.",
     images: [
@@ -76,8 +76,8 @@ const sections = [
     content: [
       "Welcome to Mumbai, the city that never sleeps! Experience the bustling energy and vibrant culture of Mumbai with our Mumbai Darshan cab services. With our flexible cab booking options, you can explore Mumbai's iconic landmarks like the Gateway of India, Marine Drive, and Chowpatty Beach at your leisure. Say goodbye to fixed itineraries and hello to personalized exploration!",
       "When you choose our Mumbai Darshan cab service, you're not just getting a ride – you're getting a knowledgeable guide. Our drivers are locals who know the ins and outs of the city, ensuring you get the most out of your tour. Whether you're interested in history, culture, or cuisine, our drivers can offer valuable insights and recommendations to enhance your experience.",
-      "At Garv Travels, we understand that every traveler has different needs and preferences. That's why we offer a variety of cab options to suit your budget and group size. Whether you're traveling solo, with family, or in a group, we have the perfect cab for you. Plus, our fleet of well-maintained vehicles ensures a comfortable and safe journey throughout your Mumbai Darshan.",
-      "Don't wait any longer to explore the wonders of Mumbai. Book your Mumbai Darshan cab with Garv Travels today and embark on an unforgettable journey through the heart of the city!",
+      "At Maharashtra Tours, we understand that every traveler has different needs and preferences. That's why we offer a variety of cab options to suit your budget and group size. Whether you're traveling solo, with family, or in a group, we have the perfect cab for you. Plus, our fleet of well-maintained vehicles ensures a comfortable and safe journey throughout your Mumbai Darshan.",
+      "Don't wait any longer to explore the wonders of Mumbai. Book your Mumbai Darshan cab with Maharashtra Tours today and embark on an unforgettable journey through the heart of the city!",
     ],
   },
   {

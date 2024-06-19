@@ -26,7 +26,9 @@ const Drawer = ({ children, isOpen, setIsOpen }: DrawerProps) => {
       >
         <article className="relative w-270px max-w-lg pb-10 flex flex-col space-y-6 h-full">
           <header className="p-4 text-2xl shadow-md font-bold text-center flex items-center justify-between">
-            <Link className="font-semibold" href="/">Garv Travels</Link>
+            <Link className="font-semibold" href="/">
+              Maharashtra Tours
+            </Link>
             <XMarkIcon
               className="block cursor-pointer h-9 w-9"
               onClick={() => {
