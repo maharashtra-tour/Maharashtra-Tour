@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     "Maharashtra Tours",
   ],
   alternates: {
-    canonical: `/mumbai-to-pune-cab`,
+    canonical: "https://maharashtratour.in/mumbai-to-pune-cab",
   },
   openGraph: {
     type: "website",
