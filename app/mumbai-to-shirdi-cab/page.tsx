@@ -19,15 +19,18 @@ export const metadata: Metadata = {
     "Travel to Shirdi",
     "Maharashtra Tours",
   ],
+  alternates: {
+    canonical: `/mumbai-to-shirdi-cab`,
+  },
   openGraph: {
     type: "website",
-    url: "https://garvtravels.in/mumbai-to-shirdi-cab",
+    url: "https://maharashtratour.in/mumbai-to-shirdi-cab",
     title: "Mumbai to Shirdi Cab Service | Maharashtra Tours",
     description:
       "Experience a comfortable and hassle-free journey from Mumbai to Shirdi with our cab services. Book now for a smooth and memorable trip.",
     images: [
       {
-        url: "https://garvtravels.in/public/assets/mumbai-shirdi/shirdi01.jpg",
+        url: "https://maharashtratour.in/public/assets/mumbai-shirdi/shirdi01.jpg",
         width: 800,
         height: 600,
         alt: "Mumbai to Shirdi Cab Cover Image",

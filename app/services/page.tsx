@@ -4,6 +4,9 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Fleets | CarHireMumbai",
+  alternates: {
+    canonical: `/services`,
+  },
 };
 
 const Services = () => {

@@ -19,15 +19,18 @@ export const metadata: Metadata = {
     "Travel to Pune",
     "Maharashtra Tours",
   ],
+  alternates: {
+    canonical: `/mumbai-to-pune-cab`,
+  },
   openGraph: {
     type: "website",
-    url: "https://garvtravels.in/mumbai-to-pune-cab",
+    url: "https://maharashtratour.in/mumbai-to-pune-cab",
     title: "Mumbai to Pune Cab Service | Maharashtra Tours",
     description:
       "Travel comfortably from Mumbai to Pune with our premium cab services. Book now for a seamless and enjoyable journey.",
     images: [
       {
-        url: "https://garvtravels.in/public/assets/mumbai-pune/pune01.jpg",
+        url: "https://maharashtratour.in/public/assets/mumbai-pune/pune01.jpg",
         width: 800,
         height: 600,
         alt: "Mumbai to Pune Cab Cover Image",

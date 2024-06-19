@@ -19,15 +19,18 @@ export const metadata: Metadata = {
     "Travel to Lonavala",
     "Maharashtra Tours",
   ],
+  alternates: {
+    canonical: `/mumbai-to-lonavala-cab`,
+  },
   openGraph: {
     type: "website",
-    url: "https://garvtravels.in/mumbai-to-lonavala-cab",
+    url: "https://maharashtratour.in/mumbai-to-lonavala-cab",
     title: "Mumbai to Lonavala Cab Service | Maharashtra Tours",
     description:
       "Enjoy a comfortable and scenic journey from Mumbai to Lonavala with our premium cab services. Book now for an unforgettable trip.",
     images: [
       {
-        url: "https://garvtravels.in/public/assets/mumbai-lonavala/lonavala01.jpg",
+        url: "https://maharashtratour.in/public/assets/mumbai-lonavala/lonavala01.jpg",
         width: 800,
         height: 600,
         alt: "Mumbai to Lonavala Cab Cover Image",

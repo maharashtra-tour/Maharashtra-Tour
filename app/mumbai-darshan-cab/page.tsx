@@ -19,15 +19,18 @@ export const metadata: Metadata = {
     "Mumbai landmarks",
     "Maharashtra Tours",
   ],
+  alternates: {
+    canonical: `/mumbai-darshan-cab`,
+  },
   openGraph: {
     type: "website",
-    url: "https://garvtravels.in/mumbai-darshan-cab",
+    url: "https://maharashtratour.in/mumbai-darshan-cab",
     title: "Mumbai Darshan Cab | Maharashtra Tours",
     description:
       "Explore Mumbai's iconic landmarks with our Mumbai Darshan Cab services. Book now for a memorable city tour.",
     images: [
       {
-        url: "https://garvtravels.in/public/assets/mumbai-darshan/mumbai03.jpg",
+        url: "https://maharashtratour.in/public/assets/mumbai-darshan/mumbai03.jpg",
         width: 800,
         height: 600,
         alt: "Mumbai Darshan Cover Image",

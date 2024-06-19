@@ -6,12 +6,13 @@ import CallNowButton from "./components/CallButton";
 import BottomNav from "./components/BottomNav";
 
 export const metadata = {
+  metadataBase: new URL("https://maharashtratour.in/"),
   title: "Maharashtra Tours | Book Now.",
   description:
     "Mumbai's Ultimate Destination for Cab Service. Trusted for Unmatched, Reliable Journeys",
   openGraph: {
     type: "website",
-    url: "https://garvtravels.in/",
+    url: "https://maharashtratour.in/",
     title: "Maharashtra Tours | Mumbai's Top Choice for Cab Service.",
     description:
       "Explore Mumbai's iconic landmarks with our Mumbai Darshan Cab services. Book now for a memorable city tour.",
