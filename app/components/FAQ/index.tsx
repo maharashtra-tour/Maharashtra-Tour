@@ -1,6 +1,8 @@
 "use client";
 import { Disclosure } from "@headlessui/react";
 import { ChevronUpIcon } from "@heroicons/react/20/solid";
+import Image from "next/image";
+import faqBg from "/public/assets/faq/swirl.png";
 
 const faq = [
   {
@@ -31,20 +33,15 @@ const faq = [
 
 const FAQ = () => {
   return (
-    <div
-      id="faq-section"
-      className="mx-auto max-w-7xl py-12 lg:px-8 bg-faqblue rounded-2xl my-16 faq-bg"
-    >
-      <h3 className="text-xl font-normal text-white text-center mb-6">FAQ</h3>
-      <h2 className="text-4xl lg:text-6xl font-semibold text-center text-white">
+    <div id="faq-section" className="relative mx-auto max-w-7xl bg-Blueviolet py-12 lg:px-8 rounded-2xl my-16">
+      <Image src={faqBg} alt="FAQ background" fill className="rounded-2xl object-cover" />
+      <h3 className="relative text-xl font-normal text-white text-center mb-6">FAQ</h3>
+      <h2 className="relative text-4xl lg:text-6xl font-semibold text-center text-white">
         Frequently asked <br /> questions.
       </h2>
-      <div className="w-full px-4 pt-16 space-y-4">
+      <div className="relative w-full px-4 pt-16 space-y-4">
         {faq.map((item) => (
-          <div
-            key={item.question}
-            className="mx-auto w-full max-w-5xl rounded-2xl bg-white py-4 px-4"
-          >
+          <div key={item.question} className="mx-auto w-full max-w-5xl rounded-2xl bg-white py-4 px-4">
             <Disclosure>
               {({ open }) => (
                 <>
