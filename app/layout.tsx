@@ -4,14 +4,21 @@ import Footer from "./components/Footer/Footer";
 import WhatsAppButton from "./components/WhatsAppButton";
 import CallNowButton from "./components/CallButton";
 import BottomNav from "./components/BottomNav";
+import { Poppins } from "@next/font/google";
+
+const poppins = Poppins({
+  weight: ["200", "300", "400", "500", "600", "700", "800"],
+  subsets: ["latin"],
+  display: "swap",
+});
 
 export const metadata = {
   title: "Maharashtra Tours | Book Now.",
   description:
     "Mumbai's Ultimate Destination for Cab Service. Trusted for Unmatched, Reliable Journeys",
-    alternates: {
-      canonical: "https://maharashtratour.in/",
-    },
+  alternates: {
+    canonical: "https://maharashtratour.in/",
+  },
   openGraph: {
     type: "website",
     url: "https://maharashtratour.in/",
@@ -35,7 +42,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className={poppins.className}>
       <body>
         <Navbar />
         <WhatsAppButton textMessage="Hello, I'm interested in using your cab service within Mumbai" />
