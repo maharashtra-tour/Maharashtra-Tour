@@ -9,7 +9,7 @@ import BookNowForm from "../components/Reusable/BookNowForm";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Mumbai to Pune Cab Service | Garv Travels",
+  title: "Mumbai to Pune Cab Service | Maharashtra Tours",
   description:
     "Travel comfortably from Mumbai to Pune with our premium cab services. Book now for a seamless and enjoyable journey.",
   keywords: [
@@ -17,12 +17,12 @@ export const metadata: Metadata = {
     "Cab Service",
     "Pune Trip",
     "Travel to Pune",
-    "Garv Travels",
+    "Maharashtra Tours",
   ],
   openGraph: {
     type: "website",
     url: "https://garvtravels.in/mumbai-to-pune-cab",
-    title: "Mumbai to Pune Cab Service | Garv Travels",
+    title: "Mumbai to Pune Cab Service | Maharashtra Tours",
     description:
       "Travel comfortably from Mumbai to Pune with our premium cab services. Book now for a seamless and enjoyable journey.",
     images: [
@@ -73,28 +73,28 @@ const sections = [
   {
     title: "Experience the Best Mumbai to Pune Cab Services",
     content: [
-      "Travel from Mumbai to Pune in comfort and style with Garv Travels' cab services. Our well-maintained vehicles ensure a smooth journey, allowing you to sit back and relax as you travel between these bustling cities.",
+      "Travel from Mumbai to Pune in comfort and style with Maharashtra Tours' cab services. Our well-maintained vehicles ensure a smooth journey, allowing you to sit back and relax as you travel between these bustling cities.",
       "Our cab service offers flexibility and convenience, with options to suit solo travelers, families, and groups. Choose from a variety of vehicles to match your needs, ensuring a comfortable ride for everyone.",
       "Our professional drivers are knowledgeable about the Mumbai to Pune route, ensuring a safe and efficient journey. They provide excellent service, making your trip enjoyable and stress-free.",
-      "Book your Mumbai to Pune cab with Garv Travels today and experience the ease and comfort of our reliable services. We guarantee a pleasant and memorable trip every time.",
+      "Book your Mumbai to Pune cab with Maharashtra Tours today and experience the ease and comfort of our reliable services. We guarantee a pleasant and memorable trip every time.",
     ],
   },
   {
-    title: "Why Choose Garv Travels for Your Mumbai to Pune Journey?",
+    title: "Why Choose Maharashtra Tours for Your Mumbai to Pune Journey?",
     content: [
-      "Choosing Garv Travels for your Mumbai to Pune trip ensures a top-notch travel experience. Our cabs are equipped with modern amenities to provide the utmost comfort during your journey.",
+      "Choosing Maharashtra Tours for your Mumbai to Pune trip ensures a top-notch travel experience. Our cabs are equipped with modern amenities to provide the utmost comfort during your journey.",
       "We offer transparent pricing and competitive rates, so you can travel with confidence knowing there are no hidden fees. Our goal is to provide a seamless and enjoyable travel experience from start to finish.",
       "Safety is our priority. Our drivers are trained professionals who adhere to all safety regulations, ensuring a secure journey. We also offer 24/7 customer support to assist with any questions or concerns.",
-      "Experience the difference with Garv Travels. Book your cab today and enjoy a smooth, comfortable, and reliable trip from Mumbai to Pune.",
+      "Experience the difference with Maharashtra Tours. Book your cab today and enjoy a smooth, comfortable, and reliable trip from Mumbai to Pune.",
     ],
   },
   {
-    title: "Explore Pune with Garv Travels' Mumbai to Pune Cab Services",
+    title: "Explore Pune with Maharashtra Tours' Mumbai to Pune Cab Services",
     content: [
-      "Pune, known for its rich history and vibrant culture, is a must-visit destination. With Garv Travels' Mumbai to Pune cab service, you can explore this dynamic city with ease and comfort.",
+      "Pune, known for its rich history and vibrant culture, is a must-visit destination. With Maharashtra Tours' Mumbai to Pune cab service, you can explore this dynamic city with ease and comfort.",
       "Our service is designed to provide a stress-free travel experience. Enjoy the scenic drive from Mumbai to Pune while we take care of all your travel needs. Our cabs are spacious and equipped with modern amenities for a relaxing journey.",
       "Upon reaching Pune, explore popular attractions like the Shaniwar Wada, Aga Khan Palace, and the bustling Koregaon Park. Our drivers can offer recommendations and assistance to make your visit memorable.",
-      "Don't miss the opportunity to discover Pune. Book your cab with Garv Travels and enjoy a smooth and enjoyable journey from Mumbai to Pune. We are committed to providing exceptional service and ensuring your trip is unforgettable.",
+      "Don't miss the opportunity to discover Pune. Book your cab with Maharashtra Tours and enjoy a smooth and enjoyable journey from Mumbai to Pune. We are committed to providing exceptional service and ensuring your trip is unforgettable.",
     ],
   },
 ];

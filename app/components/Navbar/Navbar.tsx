@@ -69,8 +69,8 @@ const Navbar = () => {
               {/* LOGO */}
 
               <div className="flex flex-shrink-0 cursor-pointer px-4 py-1 rounded-xl items-center">
-                <p className="md:text-4xl text-3xl font-semibold text-center leading-6">
-                  <Link href="/">Garv Travels</Link>
+                <p className="md:text-3xl text-2xl font-semibold text-center leading-6">
+                  <Link href="/">Maharashtra <br /> Tours</Link>
                 </p>
               </div>
 
