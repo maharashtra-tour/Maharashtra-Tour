@@ -4,7 +4,7 @@ import bgImage from "/public/assets/newsletter/bgFile.png";
 const Newsletter = () => {
     return (
         <div className="sm:mx-auto max-w-2xl mx-2 md:max-w-7xl sm:rounded-3xl relative overflow-hidden">
-            <Image src={bgImage} alt="Newsletter background" layout="fill" objectFit="cover" className="rounded-3xl" />
+            <Image src={bgImage} alt="Newsletter background" fill  className="rounded-3xl object-cover" />
             <div className="relative grid grid-cols-1 gap-y-10 gap-x-6 md:grid-cols-12 xl:gap-x-8">
                 <div className="col-span-12">
                     <div className="mb-10 mt-24 lg:mx-64 lg:my-24">
