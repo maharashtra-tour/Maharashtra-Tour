@@ -14,6 +14,7 @@ interface DataType {
   rating: number;
   msg: string;
   href?: string;
+  bestSeller?: boolean;
 }
 
 const postData: DataType[] = [
@@ -25,16 +26,9 @@ const postData: DataType[] = [
     rating: 4.7,
     msg: "Hello,I,m looking for a tour package for Mumbai Darshan. Can you please provide me with the details?",
     href: "/mumbai-darshan-cab",
+    bestSeller: true,
   },
-  {
-    heading: "Mumbai to Shirdi",
-    heading2: "Cab Service",
-    name: "Shirdi: Spiritual pilgrimage, divine grace. Discover sacred wonders",
-    imgSrc: "/assets/courses/shirdi.jpg",
-    rating: 4.8,
-    msg: "Hello,I,m looking for cab service from Mumbai to Shirdi. Can you please provide me with the details?",
-    href: "/mumbai-to-shirdi-cab",
-  },
+
   {
     heading: "Mumbai to Lonavala",
     heading2: "Cab Service",
@@ -43,6 +37,7 @@ const postData: DataType[] = [
     rating: 4.9,
     msg: "Hello,I,m looking for cab service from Mumbai to Lonavala. Can you please provide me with the details?",
     href: "/mumbai-to-lonavala-cab",
+    bestSeller: true,
   },
   {
     heading: "Mumbai to Pune",
@@ -52,6 +47,16 @@ const postData: DataType[] = [
     rating: 4.9,
     msg: "Hello,I,m looking for cab service from Mumbai to Pune. Can you please provide me with the details?",
     href: "/mumbai-to-pune-cab",
+    bestSeller: true,
+  },
+  {
+    heading: "Mumbai to Mahabaleshwar",
+    heading2: "Cab Service",
+    name: "Mahabaleshwar: Spiritual pilgrimage, divine grace. Discover sacred wonders",
+    imgSrc: "/assets/courses/MahabaleshwarImg.jpg",
+    rating: 4.8,
+    msg: "Hello,I,m looking for cab service from Mumbai to Mahabaleshwar. Can you please provide me with the details?",
+    bestSeller: true,
   },
 
   {
@@ -64,12 +69,13 @@ const postData: DataType[] = [
   },
 
   {
-    heading: "Mumbai to Mahabaleshwar",
+    heading: "Mumbai to Shirdi",
     heading2: "Cab Service",
-    name: "Mahabaleshwar: Spiritual pilgrimage, divine grace. Discover sacred wonders",
-    imgSrc: "/assets/courses/MahabaleshwarImg.jpg",
+    name: "Shirdi: Spiritual pilgrimage, divine grace. Discover sacred wonders",
+    imgSrc: "/assets/courses/shirdi.jpg",
     rating: 4.8,
-    msg: "Hello,I,m looking for cab service from Mumbai to Mahabaleshwar. Can you please provide me with the details?",
+    msg: "Hello,I,m looking for cab service from Mumbai to Shirdi. Can you please provide me with the details?",
+    href: "/mumbai-to-shirdi-cab",
   },
 ];
 
@@ -83,7 +89,7 @@ export default class MultipleItems extends Component {
       slidesToScroll: 1,
       arrows: false,
       autoplay: false,
-      speed: 2000,
+      speed: 1000,
       cssEase: "linear",
       pauseOnHover: true,
       responsive: [
@@ -135,11 +141,17 @@ export default class MultipleItems extends Component {
                       height={262}
                       className="m-auto object-cover rounded-xl"
                     />
-                    <div className="absolute right-5 -bottom-6 bg-ultramarine rounded-full p-6">
-                      <h3 className="text-white uppercase text-center text-sm font-medium">
-                        best <br /> seller
-                      </h3>
-                    </div>
+                    {items.bestSeller ? (
+                      <>
+                        <div className="absolute right-5 -bottom-6 bg-ultramarine rounded-full p-6">
+                          <h3 className="text-white uppercase text-center text-sm font-medium">
+                            best <br /> seller
+                          </h3>
+                        </div>
+                      </>
+                    ) : (
+                      <> </>
+                    )}
                   </div>
 
                   <div className="px-3">

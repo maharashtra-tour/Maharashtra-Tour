@@ -22,17 +22,17 @@ function classNames(...classes: string[]) {
 
 const Data = () => {
   return (
-    <div className="rounded-md max-w-sm w-full mx-auto">
+    <div className="rounded-md max-w-sm w-full h-full mt-12 mx-auto">
       <div className="flex-1 space-y-4 py-1">
         <div className="sm:block">
-          <div className="space-y-1 px-5 pt-2 pb-3">
+          <div className="space-y-8">
             {navigation.map((item) => (
               <Link
                 key={item.name}
                 href={item.href}
                 className={classNames(
-                  item.current ? 'text-black hover:opacity-100' : 'hover:text-black hover:opacity-100',
-                  'py-1 text-lg font-normal opacity-75 block'
+                  item.current ? 'text-black hover:opacity-50' : 'hover:text-black hover:opacity-100',
+                  'py-1 text-3xl font-extrabold opacity-75 block text-center'
                 )}
                 aria-current={item.current ? 'page' : undefined}
               >
