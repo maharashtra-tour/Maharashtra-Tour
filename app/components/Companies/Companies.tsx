@@ -85,7 +85,7 @@ export default class MultipleItems extends Component {
             <div className='text-center my-16'>
                 <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:max-w-7xl lg:px-8">
                     <h2 className="text-midnightblue text-2xl font-semibold">Trusted by companies of all sizes</h2>
-                    <div className="py-14">
+                    <div className="py-14 pointer-events-none ">
                         <Slider {...settings}>
                             {data.map((item, i) =>
                                 <div key={i}>
