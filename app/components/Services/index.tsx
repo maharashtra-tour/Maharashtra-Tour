@@ -85,7 +85,6 @@ export default class MultipleItems extends Component {
       dots: false,
       infinite: true,
       slidesToShow: 3,
-      // centerMode: true,
       slidesToScroll: 1,
       arrows: false,
       autoplay: false,
@@ -116,7 +115,7 @@ export default class MultipleItems extends Component {
 
     return (
       <div id="services">
-        <div className="mx-auto max-w-7xl sm:py-8 px-4 lg:px-8 ">
+        <div className="mx-auto max-w-7xl sm:py-8 px-4 lg:px-8">
           <div className="sm:flex justify-between items-center">
             <h3 className="text-midnightblue text-4xl lg:text-55xl font-semibold mb-5 sm:mb-0">
               Our Services.
@@ -142,16 +141,12 @@ export default class MultipleItems extends Component {
                       className="m-auto object-cover rounded-xl"
                     />
                     {items.bestSeller ? (
-                      <>
-                        <div className="absolute right-5 -bottom-6 bg-ultramarine rounded-full p-6">
-                          <h3 className="text-white uppercase text-center text-sm font-medium">
-                            best <br /> seller
-                          </h3>
-                        </div>
-                      </>
-                    ) : (
-                      <> </>
-                    )}
+                      <div className="absolute right-5 -bottom-6 bg-ultramarine rounded-full p-6">
+                        <h3 className="text-white uppercase text-center text-sm font-medium">
+                          best <br /> seller
+                        </h3>
+                      </div>
+                    ) : null}
                   </div>
 
                   <div className="px-3">
@@ -169,18 +164,6 @@ export default class MultipleItems extends Component {
                     </div>
 
                     <div className="flex justify-between gap-4 mt-2 items-center">
-                      {/* <div className="flex gap-4">
-                        <h3 className="text-red text-22xl font-medium">
-                          {items.rating}
-                        </h3>
-                        <div className="flex">
-                          <StarIcon className="h-5 w-5 text-gold" />
-                          <StarIcon className="h-5 w-5 text-gold" />
-                          <StarIcon className="h-5 w-5 text-gold" />
-                          <StarIcon className="h-5 w-5 text-gold" />
-                          <StarIcon className="h-5 w-5 text-gold" />
-                        </div>
-                      </div> */}
                       <Link href={items.href || ""} className="w-full">
                         <button className="p-3 lg:p-4 w-full focus:outline-none focus:shadow-outline text-black border border-Blueviolet bg-white hover:bg-cornflowerblue hover:text-white hover:border-none duration-150 ease-in-out rounded-xl">
                           View Details
