@@ -53,7 +53,7 @@ const postData: DataType[] = [
     heading: "Mumbai to Mahabaleshwar",
     heading2: "Cab Service",
     name: "Mahabaleshwar: Spiritual pilgrimage, divine grace. Discover sacred wonders",
-    imgSrc: "/assets/courses/MahabaleshwarImg.jpg",
+    imgSrc: "/assets/courses/mahabaleshwar.jpg",
     rating: 4.8,
     msg: "Hello,I,m looking for cab service from Mumbai to Mahabaleshwar. Can you please provide me with the details?",
     bestSeller: true,

@@ -15,10 +15,10 @@ interface NavigationItem {
 
 const navigation: NavigationItem[] = [
   { name: "Home", href: "/", current: true },
-  { name: "Fleets", href: "#fleets", current: false },
-  { name: "Services", href: "#services", current: false },
-  { name: "About", href: "#aboutus-section", current: false },
-  { name: "Contact", href: "/contact", current: false },
+  { name: "Tour Packages", href: "/tour-packages", current: false },
+  { name: "Cab Services", href: "/cab-service", current: false },
+  { name: "Blogs", href: "#aboutus-section", current: false },
+  { name: "Contact us", href: "/contact", current: false },
 ];
 
 function classNames(...classes: string[]) {
@@ -77,7 +77,7 @@ const Navbar = () => {
               {/* LINKS */}
 
               <div className="hidden lg:block m-auto">
-                <div className="flex space-x-4">
+                <div className="flex space-x-2">
                   {navigation.map((item) => (
                     <CustomLink
                       key={item.name}

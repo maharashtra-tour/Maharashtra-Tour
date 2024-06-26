@@ -105,7 +105,6 @@ export default class MultipleItems extends Component {
             <div className="pt-10 pb-10 sm:pb-10 lg:py-10" id="testimonial">
 
                 <div className='mx-auto max-w-7xl sm:py-4 lg:px-8'>
-                    <Image src="/assets/aboutUs/dots.svg" width={100} height={100} alt="dots-image" className="absolute bottom-1 -left-20" />
                     <h3 className='text-center text-blue text-lg tracking-widest'>Testimonials</h3>
                     <h4 className='text-center mb-8 text-4xl lg:text-65xl font-bold'>Words from Our Customers.</h4>
                     <Slider {...settings}>
