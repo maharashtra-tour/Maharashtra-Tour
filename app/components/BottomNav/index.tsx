@@ -7,6 +7,8 @@ import { Dialog, Transition } from "@headlessui/react";
 import { useFormik } from "formik";
 import emailjs from "@emailjs/browser";
 import { EnquirySchema } from "../EnquirySchema/EnquirySchema";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const initialValues = {
   name: "",
@@ -47,15 +49,16 @@ const BottomNav = () => {
         })
         .then(
           (result) => {
-            console.log("SUCCESS!", result.text);
-            // closeModal()
+            toast.success(
+              "Thank you! Your inquiry has been successfully submitted. We will get back to you shortly."
+            );
+            resetForm();
+            closeModal();
           },
           (error) => {
-            console.log("FAILED...", error.text);
+            toast.error("Failed to submit the form. Please try again.");
           }
         );
-
-      resetForm();
     }
   };
 
@@ -67,7 +70,7 @@ const BottomNav = () => {
     setIsOpen(true);
   };
   return (
-    <div className="grid sm:hidden w-[93%] z-50 rounded-xl grid-cols-3 fixed bottom-0 left-0 right-0  text-white font-medium text-center mx-auto mb-3 text-sm p-0 h-14 bg-Blueviolet">
+    <div className="grid sm:hidden w-[93%] z-50 rounded-xl grid-cols-3 fixed bottom-0 left-0 right-0  text-white font-medium text-center mx-auto mb-3 text-sm p-0 h-14 pt-1 bg-Blueviolet">
       <div className="flex flex-col justify-center gap-1 border-r items-center">
         <IoMdCall className="h-5 w-5" />
         <a href="tel:+918286112257">Call us</a>
@@ -83,6 +86,8 @@ const BottomNav = () => {
         <FaWhatsapp className="h-5 w-5" />
         <a href="https://wa.me/8286112257?">Whatsapp</a>
       </div>
+      <ToastContainer />
+
       <Transition appear show={isOpen} as={Fragment}>
         <Dialog as="div" className="relative z-10" onClose={closeModal}>
           <Transition.Child
