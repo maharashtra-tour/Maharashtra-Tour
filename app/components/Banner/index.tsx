@@ -47,8 +47,8 @@ const Banner = () => {
                 </h3>
               </div>
               <h1 className="text-midnightblue text-4xl sm:text-5xl font-semibold text-center lg:text-start lh-120 pt-5 lg:pt-0">
-                Discover Mumbai&apos;s Top Choice for Cab Service. Trusted for
-                Reliable Journeys.
+                Mumbai&apos;s Top Choice for Cab Service. Trusted for Reliable
+                Journeys.
               </h1>
               <h3 className="text-charcoal text-lg font-normal text-center lg:text-start opacity-75 pt-5 lg:pt-0">
                 Uncover Mumbai&apos;s Ultimate Destination for Cab Service.
