@@ -16,7 +16,7 @@ interface NavigationItem {
 const navigation: NavigationItem[] = [
   { name: "Home", href: "/", current: true },
   { name: "Tour Packages", href: "/tour-packages", current: false },
-  { name: "Cab Services", href: "/cab-service", current: false },
+  { name: "Cab Services", href: "/cab-services", current: false },
   { name: "Blogs", href: "#aboutus-section", current: false },
   { name: "Contact us", href: "/contact", current: false },
 ];
