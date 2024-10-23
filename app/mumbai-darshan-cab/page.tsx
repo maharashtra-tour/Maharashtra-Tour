@@ -127,8 +127,8 @@ const sections = [
 ];
 
 const images = [
-  { src: mumbai01, alt: "Local Cab Services" },
-  { src: mumbai02, alt: "Hire For An Hour Services" },
+  // { src: mumbai01, alt: "Local Cab Services" },
+  // { src: mumbai02, alt: "Hire For An Hour Services" },
   { src: mumbai03, alt: "Luxury Car Rental" },
 ];
 
@@ -139,13 +139,13 @@ const MumbaiDarshan = () => {
         {/* Left Container */}
         <div className="md:w-[70%] space-y-4">
           {/* Image Container */}
-          <div className="grid md:grid-cols-3 grid-cols-1 mb-6 md:h-[300px] gap-4 md:gap-8">
+          <div className="grid grid-cols-1 mb-6 md:h-[400px] rounded-xl gap-4 md:gap-8">
             {images.map((image, index) => (
               <div key={index} className="flex flex-col flex-1">
                 <Image
                   src={image.src}
                   alt={image.alt}
-                  className="object-cover h-[300px] md:w-[300px] rounded-lg"
+                  className="object-cover h-[400px] w-full rounded-xl"
                 />
               </div>
             ))}
